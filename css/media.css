@@ -1,0 +1,35 @@
+@media screen and (max-width: 760px){
+    main{
+        background: url(/imagem/foto-backgraund.jpg) no-repeat bottom center scroll;
+    
+    }
+
+    h1{
+        font-size: 90px
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 450px){
+    h1{
+        font-size: 45px;
+    }
+
+    li{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    #proximo{
+        padding: 2px;
+    }
+}
