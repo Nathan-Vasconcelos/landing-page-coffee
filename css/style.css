@@ -31,12 +31,13 @@ li{
 a{
     color: white;
     padding: 5px;
+    text-decoration: none;
 }
 
 a:hover{
     background-color: rgba(143, 25, 23, 0.863);
     border: 1px solid rgb(143, 25, 23, 0.863);
-    border-radius: 2px 5px 2px 5px;
+    border-radius: 2px 7px 2px 7px;
     transition: 1.5s;
 }
 
@@ -53,18 +54,11 @@ h2{
     padding: 15px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    cursor: pointer;
 }
 
 #proximo{
     padding: 5px;
-}
-
-#proximo:hover{
-    background-color: rgba(143, 25, 23, 0.863);
-    border: 1px solid rgb(143, 25, 23, 0.863);
-    border-radius: 2px 5px 2px 5px;
-    transition: 1.5s;
+    cursor: pointer;
 }
 
 #seta-proximo{
