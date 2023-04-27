@@ -64,3 +64,22 @@ h2{
 #seta-proximo{
     font-size: 30px;
 }
+
+#sobre-texto{
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    /*font-size: 25px;*/
+    margin: 45px 60px;
+    max-width: 70%;
+    font-weight: 400;
+}
+
+#contatos-texto{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    margin: 50px auto;
+    max-width: 100%;
+    max-width: 70%;
+    font-weight: bold;
+}

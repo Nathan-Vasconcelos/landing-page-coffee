@@ -1,3 +1,11 @@
+@media screen and (max-width: 900px){
+    #sobre-texto{
+        max-width: 96%;
+        color: rgb(185, 117, 44);
+        margin: 30px 60px;
+    }
+}
+
 @media screen and (max-width: 760px){
     main{
         background: url(../imagem/foto-backgraund.jpg) no-repeat;
@@ -12,6 +20,24 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    h2{
+        padding-top: 0;
+        margin: 0;
+    }
+
+    #sobre-texto{
+        color: white;
+        max-width: 100%;
+        margin: 10px 5px 0 5px;
+        font-size: 30px;
+    }
+
+    #contatos-texto{
+        font-size: 35px;
+        margin-bottom: 30px;
+        max-width: 100%;
     }
 }
 
@@ -31,5 +57,13 @@
 
     #proximo{
         padding: 2px;
+    }
+
+    #sobre-texto{
+        font-size: 24px;
+    }
+
+    #contatos-texto{
+        font-size: 24px;
     }
 }
